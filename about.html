@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title> Moha web application</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/44dea2d0a1.js" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href ="/index.html"><img src="/images/logo.png"></a>
+                <div class ="nav-links">
+                    <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/about.html">ABOUT OTTs</a></li>
+                        <li><a href="/oots.html">OTTs</a></li>
+                        <li><a href="/contact.html">CONTACT</a></li> 
+                    </ul>
+                </div>
+                
+            </nav>
+            <h1>About OTTs</h1>
+        </section>
+        
+
+
+        <section class="about-us">
+            <div class="row">
+            <div class="about-col">
+            <h1>What are OTT platforms</h1>
+            <p>Since the outbreak of COVID-19 and consequent national lockdown in March 2020, India 
+                witnessed a significant growth in the usage of OTT and emerged as a threat to the Television
+                 industry.[2] Until then, the popularity of OTT platforms were limited to urban area and 
+                 above middle class. Due to the national lockdown, people were restricted to their homes
+                  and didn't have much options for entertainment. Film theatres were closed. Entertainment 
+                  programs on Television were not that interesting for the educated middle class. So, they 
+                  began to watch foreign TV programs on OTT platforms like Netflix, Amazon Prime, Sony Liv, 
+                  and Disney+Hotstar. Shows like Scam 1992 (SonyLIV), Paatal Lok (Amazon Prime Video), 
+                  Special Ops (Disney+ Hotstar), Flesh (Eros Now), and Asur (Voot) kept the audiences 
+                  hooked on to the OTT platforms.<br> <br>
+                  
+With OTT video delivery technology, people now have a multitude of options at their fingertips. They have the ability to view content on a variety of platforms such as: Smart TVs, Roku, computers, tablets, mobile phones, or gaming consoles. They also have the option to access multiple distributors for specialized programs and view channels by “app switching”, giving them more control over the content they choose to purchase and watch.
+
+In fact, while they both use IP technology, IPTV is delivered over private cable network compared to OTT delivered over internet services. OTT systems overcome the limitations of the single operator set top box (STB) technology required by IPTV. With OTT, content is only delivered upon request. Each connected device has a unique connection to the source of the content via the internet, making it “unicast”- delivering one stream to one device. <br> <br>
+One of the inherent problems with serving TV content over the internet is being able to contend with the wide range of network performance. Performance depends on what speed the connection will support (e.g. Fiber, Wi-Fi, LTE, DSL), the display device (e.g. phone, streaming device like Roku, Apple TV, or Firestick, or laptop), and then how many network hops there are between the provider and the end user. At a high-level, OTT systems and technologies are designed to minimize the impact these parameters have, by providing a “best effort” approach to serving up the content. That is, OTT technology will adjust to the network performance of the entire chain in real-time so that the video and audio are delivered without pauses caused by buffering. These pauses are extremely frustrating for the viewer and may cause them to abandon the content.
+
+For slower networks it will scale down to lower bit rates. For faster networks it will scale up to provide the best quality. Ideally, when on a very fast network, the player will buffer additional content to “get ahead” and smooth out periods of network slow-down. It does this with a technique called ABR which stands for Adaptive Bit Rate streaming. <br> <br>
+There are two kinds of content distributed within an OTT video delivery environment. The first is Video on Demand (VOD) - finished content such as a movie, ready for the consumer to view. The second is called LIVE - live streaming of content such as a sporting event, for the consumer to view in real time. The workflow for both types of content is similar, but different enough for each to deserve a walk through.
+
+For VOD, content chunks are a bit longer which makes the process more efficient. While it is being viewed, players can cache larger chunks of content far enough ahead to possibly download the entire length of the movie.
+
+For LIVE, content chunks are minimized to shorten the delay between the actual event and the remote viewing. The players cannot cache as far ahead, so they need to tune the bit rates in accordance with the actual current performance of the network. This makes the process of streaming LIVE content at high quality and low-latency, difficult to do as well as current cable or satellite TV providers which have perfected this over the years. During a LIVE event, the service provider will encode and package their feed into small ABR file chunks and push these out into a CDN (Content Delivery Network). The consumer’s device then pulls each of these file chunks from that CDN to produce continuous playback.
+
+
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="/images/ott.jfif">
+                <img src="/images/ott.jpg">
+            </div>
+            </div>
+
+
+        </section>
+
+
+         <section class="footer">
+            <p>Made by Moha <i class="fas fa-smile-wink"></i> </p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </section>
+    </body>
+</html>
